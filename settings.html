@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href = "css/styles.css" rel = "stylesheet">
+    <script src="js/moments.js"></script>
+</head>
+
+<body>
+    <div class = "sidebar">
+        <a href = "home.html"><img src = "images/contactinactive.png" width = 62px><br><br>Contacts</a> 
+        <a href = "moments1.html"><img src = "images/moments.png" style = "opacity: 70%" width = 62px><br><br>Moments</a>
+        <a href = "settings.html" style = "background-image: linear-gradient(to bottom right, #8DDBE0, #D3FFE9)"><img src = "images/settingsactive.png" width = 62px style = "opacity: 70%"><br><br>Settings</a>
+        <a href = "help.html"><img src = "images/help.png" width = 62px style = "opacity: 70%"><br><br>Help</a>
+    </div>
+    <br> <br>
+    <div style = "display: inline-block; vertical-align: bottom; filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));">
+        <img src = "images/logo.png" width = 95px> 
+    </div>
+    <div style = "display: inline-block; vertical-align: top; text-shadow: 0px 2px 4px">
+        <h1 style = "font-size: 300%; padding-left: 20px; color:#4B5043"><i>Moments</i></h1>
+    </div>
+    <a class="button1" style = "display: inline-block; background-color: #A4E2E6; border: 0px;" href = "profile.html"><img src = "images/person.png" style = "margin: 13px;"></a>
+    <br><br><br><br><br>
+
+    <div class = "settings">
+        <div class = "settingoptions"> 
+            <form class = "lang">
+                <label for = "lang" style = "display: inline-block; vertical-align: middle;">Choose language:</label>
+                <select name = "lang" id = "lang" style = "border: none; border-radius: 15px; padding: 15px; font-family: 'Lato', sans-serif; display: inline-block; margin-left: 20px; background-color: #4B5043; color: #D3FFE9; font-size: 20px;">
+                  <option value = "English">English</option>
+                  <option value = "Spanish">Spanish</option>
+                  <option value = "French">French</option>
+                  <option value = "Mandarin">Mandarin</option>
+                </select>
+            </form> 
+        </div>
+        <div class = "settingoptions">
+            <h1 style = "display:inline-block; vertical-align: text-bottom; line-height: 0px;">Voiceover:</h1>
+            <label class = "toggle">
+                <input type = "checkbox" checked>
+                <span class = "toggle round"></span>
+            </label>
+        </div>
+        <div class = "settingoptions">
+            <h1 style = "display: inline-block;">Speaking rate:</h1>
+            <div class = "base">
+                <input type = "range" min = "1" max = "100" value = "50" class = "range" id = "myRange">
+            </div>
+        </div>
+        <div class = "settingoptions">
+            <h1 style = "display: inline-block;">Text size:</h1>
+            <div class = "base">
+                <input type = "range" min = "1" max = "100" value = "50" class = "range" id = "myRange">
+            </div>
+        </div>
+        <div class = "settingoptions">
+            <h1 style = "display:inline-block; vertical-align: text-bottom; line-height: 0px;">Light mode</h1>
+            <label class = "toggle" style = "margin-right: 20px;">
+                <input type = "checkbox" notchecked>
+                <span class = "toggle round"></span>
+            </label>
+            <h1 style = "display:inline-block; vertical-align: text-bottom; line-height: 0px;">Dark Mode</h1>
+        </div>
+    </div>
+    
+
+</body>
+
+</html>

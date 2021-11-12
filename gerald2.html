@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href = "css/styles.css" rel = "stylesheet">
+    <script src="js/moments.js"></script>
+</head>
+
+<body>
+    <div class = "sidebar">
+        <a href = "home.html" style = "background-image: linear-gradient(to bottom right, #8DDBE0, #D3FFE9)"><img src = "images/contacts.png" width = 62px><br><br>Contacts</a> 
+        <a href = "moments1.html"><img src = "images/moments.png" style = "opacity: 70%" width = 62px><br><br>Moments</a>
+        <a href = "settings.html"><img src = "images/settings.png" width = 62px style = "opacity: 70%"><br><br>Settings</a>
+        <a href = "help.html"><img src = "images/help.png" width = 62px style = "opacity: 70%"><br><br>Help</a>
+    </div>
+    <br> <br>
+    <div style = "display: inline-block; vertical-align: bottom; filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));">
+        <img src = "images/logo.png" width = 95px> 
+    </div>
+    <div style = "display: inline-block; vertical-align: top; text-shadow: 0px 2px 4px">
+        <h1 style = "font-size: 300%; padding-left: 20px; color:#4B5043"><i>Moments</i></h1>
+    </div>
+
+    <form>
+        <input type = "button" class = "button3" value = "Back to Profile" style = "display: inline-block; margin-left: 20px; font-family: 'Lato', sans-serif; padding-top: 0px; border: 0px; color: #D3FFE9" onclick = "history.back()">
+    </form>
+
+    <br><br>
+    <form>
+        <input type = "button" class = "back" value = "<" style = "display: inline-block; margin-left: 20px; margin-top: 20px; border: 0px; color: #D3FFE9" onclick = "history.back()">
+        <h2 style = "position: absolute; margin-left: 75px; color: #565C69; font-size: 24px; display: inline-block; line-height: 50px">Back</h2>
+    </form>
+
+    
+        <h1 style = "left: 33%; position: absolute;">Choose Prompt:</h1><br><br><br><br><br>
+    <div class = "prompt-options">
+        <button class = "options">What is your favourite thing about me?</button><br><br>
+        <button class = "options">What did you have for lunch today?</button><br><br>
+        <button class = "options">What is a memory you greatly cherish?</button><br>
+        <form action = "/action_page.php">
+            <input type = "text" id = "username" name = "username" value = "Write your own..." style = "background-color: #4B5043; border-radius: 15px; padding-left: 20px; width: 97%; height: 70px; color: #8DDBE0; font-size: 20px; margin-top: 20px; font-family: 'Lato', sans-serif;"><br>
+        </form> <br>
+        <a class = "button3" style = "color: #D3FFE9;" href = "home.html"><h2>Send</h2></a>
+    </div>
+
+    <a class="shuffle" style = "border: 0px;" href = "gerald3.html"><img src = "images/shuffle.png" style = "padding: 17px;"></a> 
+
+    
+
+</body>
+
+</html>

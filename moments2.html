@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href = "css/styles.css" rel = "stylesheet">
+    <script src="js/moments.js"></script>
+</head>
+
+<body>
+    <div class = "sidebar">
+        <a href = "home.html"><img src = "images/contactinactive.png" width = 62px><br><br>Contacts</a> 
+        <a href = "moments1.html" style = "background-image: linear-gradient(to bottom right, #8DDBE0, #D3FFE9)"><img src = "images/momentsactive.png" style = "opacity: 70%" width = 62px><br><br>Moments</a>
+        <a href = "settings.html"><img src = "images/settings.png" width = 62px style = "opacity: 70%"><br><br>Settings</a>
+        <a href = "help.html"><img src = "images/help.png" width = 62px style = "opacity: 70%"><br><br>Help</a>
+    </div>
+    <br> <br>
+    <div style = "display: inline-block; vertical-align: bottom; filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));">
+        <img src = "images/logo.png" width = 95px> 
+    </div>
+    <div style = "display: inline-block; vertical-align: top; text-shadow: 0px 2px 4px">
+        <h1 style = "font-size: 300%; padding-left: 20px; color:#4B5043"><i>Moments</i></h1>
+    </div>
+    <br><br>
+    <div>
+        <h1 style = "text-align: center;">OCTOBER</h1>
+        <div style = "position: absolute; left: 38.5%">
+            <a class = "back" style = "border: 0px; display: inline-block" href = "moments1.html"><img src = "images/back.png" style = "margin: 17px;"></a>
+        </div>
+        <div style = "position: absolute; left: 44%">
+            <a class = "back" style = "border: 0px; display: inline-block" href = "moments3.html"><img src = "images/forward.png" style = "margin: 17px;"></a>
+        </div>
+        <br><br><br><br>
+    </div>
+    <div class = "tab">
+        <button class = "optionname" onclick = "momentsShow(event, 'your')" id = "defaultOpen">Your Moments</button>
+        <button class = "optionname" onclick = "momentsShow(event, 'other')">Other's Moments</button>
+    </div>
+    <br><br><br><br><br><br><br>  
+    <div id = "your" class = "tabcontent">
+        <table class = "moments1">
+            <tr>
+                <th>1<br>Fri</th>
+                <th><img src = "images/dog.jpeg" style = "width: 215px; border-radius: 15px;"></th>
+                <th><i>What made you smile today?</i><br>My New Dog!</th>
+            </tr>
+            <tr>
+                <th>18<br>Mon</th>
+                <th><img src = "images/sunflower.jpeg" style = "width: 215px; border-radius: 15px;"></th>
+                <th><i>Seen anything beautiful lately?</i><br>I saw a sunflower the other day!</th>
+            </tr>
+        </table>
+    </div>
+        
+    <div id = "other" class = "tabcontent">
+        <table class = "moments2">
+            <tr>
+                <th>3<br>Sun</th>
+                <th><img src = "images/trees.jpeg" style = "width: 215px; border-radius: 15px;"></th>
+                <th>Maria<br><i>What’s your day like today?</i><br>Chilling in the garden!</th>
+            </tr>
+        </table>
+    </div>
+    
+</body>
+
+</html>
